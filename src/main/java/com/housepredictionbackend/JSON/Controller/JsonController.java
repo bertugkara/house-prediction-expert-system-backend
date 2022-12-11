@@ -1,9 +1,9 @@
 package com.housepredictionbackend.JSON.Controller;
 
-import com.housepredictionbackend.utilities.DataResult;
+import com.housepredictionbackend.JSON.Service.JSONService;
+import com.housepredictionbackend.utilities.Result;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 
 @RequiredArgsConstructor
@@ -12,10 +12,11 @@ import org.springframework.web.multipart.MultipartFile;
 @RequestMapping(path = "api/json/")
 public class JsonController {
 
+    private final JSONService jsonService;
+
     @PostMapping("save")
-    public DataResult<Integer> save(@RequestParam MultipartFile file) {
-        System.out.println(file);
-        return null;
+    public Result save(@RequestBody Object saveJsonRequest) {
+        return jsonService.saveJSON(saveJsonRequest);
     }
 
 }

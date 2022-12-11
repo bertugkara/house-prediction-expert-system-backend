@@ -20,7 +20,4 @@ public class Query {
     Short meterSquare;
     Short totalRoomNumber;
     Short age;
-
-
-
 }
