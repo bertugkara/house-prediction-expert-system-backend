@@ -16,8 +16,9 @@ public class Query {
     Boolean north;
     String neighbourhood;
     String isFurnished;
-    Short floor;
+    String floor;
     Short meterSquare;
     Short totalRoomNumber;
     Short age;
+    String district;
 }

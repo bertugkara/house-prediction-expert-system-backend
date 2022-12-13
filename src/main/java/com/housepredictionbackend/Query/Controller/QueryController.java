@@ -21,6 +21,7 @@ public class QueryController {
 
     @PostMapping("receiveQuery")
     public DataResult<Integer> query(@RequestBody @Valid QueryRequest queryRequest) throws IOException, ParseException {
+        System.out.println(queryRequest);
         return new DataResult<>(queryService.performQueryOperations
                 (QueryMapper.INSTANCE.dtoToEntity(queryRequest)),
                 true, "Operation Completed");

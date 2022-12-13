@@ -27,11 +27,13 @@ public class QueryRequest {
     @NotBlank
     String isFurnished;
     @NotNull
-    Integer floor;
+    String floor;
     @NotNull
     Integer meterSquare;
     @NotNull
     Integer totalRoomNumber;
     @NotNull
     Integer age;
+    @NotNull
+    String district;
 }
