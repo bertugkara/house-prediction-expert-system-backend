@@ -21,4 +21,14 @@ public class Query {
     Short totalRoomNumber;
     Short age;
     String district;
+    Integer distanceOfMetro;
+    Integer distanceOfMarket;
+    Boolean inSite;
+    Boolean hasView;
+    Boolean hasGarage;
+    Boolean hasBuiltInKitchen;
+    Boolean hasSteelDoor;
+    Boolean isRenovated;
+    Boolean hasPool;
+    Boolean hasGym;
 }

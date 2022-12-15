@@ -36,4 +36,25 @@ public class QueryRequest {
     Integer age;
     @NotNull
     String district;
+
+    @NotNull
+    Integer distanceOfMetro;
+    @NotNull
+    Integer distanceOfMarket;
+    @NotNull
+    Boolean inSite;
+    @NotNull
+    Boolean hasView;
+    @NotNull
+    Boolean hasGarage;
+    @NotNull
+    Boolean hasBuiltInKitchen;
+    @NotNull
+    Boolean hasSteelDoor;
+    @NotNull
+    Boolean isRenovated;
+    @NotNull
+    Boolean hasPool;
+    @NotNull
+    Boolean hasGym;
 }
