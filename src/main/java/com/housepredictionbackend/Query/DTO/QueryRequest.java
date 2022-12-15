@@ -57,4 +57,50 @@ public class QueryRequest {
     Boolean hasPool;
     @NotNull
     Boolean hasGym;
+    @NotNull
+    Boolean hasFirePlace                     ;
+    @NotNull
+    Boolean hasSecurity              ;
+    @NotNull
+    Boolean hasGreenFeatures                 ;
+    @NotNull
+    Boolean hasOutdoorLivingSpace    ;
+    @NotNull
+    Boolean hasBalcony                       ;
+    @NotNull
+    Boolean hasWineCellar            ;
+    @NotNull
+    Boolean hasHomeTheatre                   ;
+    @NotNull
+    Boolean hasHighCeiling           ;
+    @NotNull
+    Boolean hasElevator                      ;
+    @NotNull
+    Boolean hasJacuzzi               ;
+    @NotNull
+    Boolean hasSauna                         ;
+    @NotNull
+    Boolean isNearBeach              ;
+    @NotNull
+    Boolean hasAirConditioning               ;
+    @NotNull
+    Boolean hasSmartHomeAutomation   ;
+    @NotNull
+    Boolean isSoundProof                     ;
+    @NotNull
+    Boolean isHeatProof              ;
+    @NotNull
+    Boolean hasCentralAirConditioning        ;
+    @NotNull
+    Boolean hasInternetInfrastructure;
+    @NotNull
+    Boolean hasDressingRoom                  ;
+    @NotNull
+    Boolean hasDoorman               ;
+    @NotNull
+    Boolean hasChildPark                     ;
+    @NotNull
+    Boolean isEarthquakeResistant    ;
+    @NotNull
+    Boolean hasWalkingPath                   ;
 }

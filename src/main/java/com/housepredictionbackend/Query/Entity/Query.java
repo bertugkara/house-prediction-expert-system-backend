@@ -31,4 +31,27 @@ public class Query {
     Boolean isRenovated;
     Boolean hasPool;
     Boolean hasGym;
+    Boolean hasFirePlace             ;
+    Boolean hasSecurity              ;
+    Boolean hasGreenFeatures         ;
+    Boolean hasOutdoorLivingSpace    ;
+    Boolean hasBalcony               ;
+    Boolean hasWineCellar            ;
+    Boolean hasHomeTheatre           ;
+    Boolean hasHighCeiling           ;
+    Boolean hasElevator              ;
+    Boolean hasJacuzzi               ;
+    Boolean hasSauna                 ;
+    Boolean isNearBeach              ;
+    Boolean hasAirConditioning       ;
+    Boolean hasSmartHomeAutomation   ;
+    Boolean isSoundProof             ;
+    Boolean isHeatProof              ;
+    Boolean hasCentralAirConditioning;
+    Boolean hasInternetInfrastructure;
+    Boolean hasDressingRoom          ;
+    Boolean hasDoorman               ;
+    Boolean hasChildPark             ;
+    Boolean isEarthquakeResistant    ;
+    Boolean hasWalkingPath           ;
 }

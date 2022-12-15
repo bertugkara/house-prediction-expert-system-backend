@@ -34,7 +34,29 @@ public class EngineController {
         engine.put("isRenovated",query.getIsRenovated());
         engine.put("hasPool",query.getHasPool());
         engine.put("hasGym",query.getHasGym());
-
+        engine.put("hasFirePlace",query.getHasFirePlace());
+        engine.put("hasSecurity",query.getHasSecurity());
+        engine.put("hasGreenFeatures",query.getHasGreenFeatures());
+        engine.put("hasOutdoorLivingSpace",query.getHasOutdoorLivingSpace());
+        engine.put("hasBalcony",query.getHasBalcony());
+        engine.put("hasWineCellar",query.getHasWineCellar());
+        engine.put("hasHomeTheatre",query.getHasHomeTheatre());
+        engine.put("hasHighCeiling",query.getHasHighCeiling());
+        engine.put("hasElevator",query.getHasElevator());
+        engine.put("hasJacuzzi",query.getHasJacuzzi());
+        engine.put("hasSauna",query.getHasSauna());
+        engine.put("isNearBeach",query.getIsNearBeach());
+        engine.put("hasAirConditioning",query.getHasAirConditioning());
+        engine.put("hasSmartHomeAutomation",query.getHasSmartHomeAutomation());
+        engine.put("isSoundProof",query.getIsSoundProof());
+        engine.put("isHeatProof",query.getIsHeatProof());
+        engine.put("hasCentralAirConditioning",query.getHasCentralAirConditioning());
+        engine.put("hasInternetInfrastructure",query.getHasInternetInfrastructure());
+        engine.put("hasDressingRoom",query.getHasDressingRoom());
+        engine.put("hasDoorman",query.getHasDoorman());
+        engine.put("hasChildPark",query.getHasChildPark());
+        engine.put("isEarthquakeResistant",query.getIsEarthquakeResistant());
+        engine.put("hasWalkingPath",query.getHasWalkingPath());
     }
 
     public ScriptEngine getEngine() {
