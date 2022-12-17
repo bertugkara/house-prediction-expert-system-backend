@@ -57,6 +57,12 @@ public class EngineController {
         engine.put("hasChildPark",query.getHasChildPark());
         engine.put("isEarthquakeResistant",query.getIsEarthquakeResistant());
         engine.put("hasWalkingPath",query.getHasWalkingPath());
+        engine.put("distanceOfRestaurants",query.getDistanceOfRestaurants());
+        engine.put("distanceOfBusStation",query.getDistanceOfBusStation());
+        engine.put("distanceOfHospital",query.getDistanceOfHospital());
+        engine.put("distanceOfAVM",query.getDistanceOfAVM());
+        engine.put("distanceOfSchool",query.getDistanceOfSchool());
+        engine.put("heatingType",query.getHeatingType());
     }
 
     public ScriptEngine getEngine() {

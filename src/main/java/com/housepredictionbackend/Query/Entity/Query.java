@@ -54,4 +54,15 @@ public class Query {
     Boolean hasChildPark             ;
     Boolean isEarthquakeResistant    ;
     Boolean hasWalkingPath           ;
+    Integer distanceOfRestaurants    ;
+
+    Integer distanceOfBusStation     ;
+
+    Integer distanceOfHospital       ;
+
+    Integer distanceOfAVM            ;
+
+    Integer distanceOfSchool         ;
+    String heatingType; 
+
 }

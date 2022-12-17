@@ -103,4 +103,18 @@ public class QueryRequest {
     Boolean isEarthquakeResistant    ;
     @NotNull
     Boolean hasWalkingPath                   ;
+
+    @NotNull
+    Integer distanceOfRestaurants;
+    @NotNull
+    Integer distanceOfBusStation ;
+    @NotNull
+    Integer distanceOfHospital   ;
+    @NotNull
+    Integer distanceOfAVM        ;
+    @NotNull
+    Integer distanceOfSchool     ;
+    @NotNull
+    String heatingType;
+
 }

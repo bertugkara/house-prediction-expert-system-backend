@@ -21,7 +21,7 @@ public class AIModel {
         }
 
         floatFeatures=new float[7];
-        stringFeatures=new String[4];
+        stringFeatures=new String[5];
         setFloatFeatures(query);
         setStringFeatures(query);
 
@@ -44,7 +44,8 @@ public class AIModel {
         stringFeatures[0]=query.getNeighbourhood();
         stringFeatures[1]=query.getDistrict();
         stringFeatures[2]=query.getFloor();
-        stringFeatures[3]=query.getIsFurnished();
+        stringFeatures[3]=query.getHeatingType();
+        stringFeatures[4]=query.getIsFurnished();
     }
     public double getPrediction(){
         double result=0.0;
